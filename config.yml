@@ -1,0 +1,13 @@
+#----- General Configuration
+dataset: "house_prices"      #--- "artificial" or "house_prices"
+epochs: 200                  #--- Num training epochs
+learning_rate: 1.0           
+update_interval: 0.1         #--- Visual refresh interval (in seconds)
+
+#----- Model Configuration
+loss_function: "mse"          #--- "mse" (Mean Squared Error) or "mae" (Mean Absolute Error)
+execution_mode: "cuda"        #--- "cupy" (high-level) or "cuda" (manual kernels)
+
+#----- Viz Configuration
+show_overlay_text: true       #--- Show epoch, loss, w, b text overlay on the screen
+#save_model: false             #--- Save final parameters (w, b) to file (TO DO)

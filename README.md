@@ -2,7 +2,7 @@
 
 This is a small experimental project where I'm learning and playing around with training linear regression models directly on the GPU using Python.
 
-The goal is to get a better grasp of how CUDA-based computations work in practice — both using high-level tools like CuPy and by writing and launching custom CUDA kernels myself.
+The goal is to get a better grasp of how CUDA-based computations work in practice — both using high-level tools like CuPy and by writing and launching custom CUDA kernels myself. You can also use my other repo "GPU_Monitor" to check your GPU's usage in real time.
 
 ## Features
 
